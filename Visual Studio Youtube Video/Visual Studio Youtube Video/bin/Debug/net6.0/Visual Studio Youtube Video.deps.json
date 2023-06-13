@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Visual Studio Youtube Video/1.0.0": {
+        "runtime": {
+          "Visual Studio Youtube Video.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Visual Studio Youtube Video/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

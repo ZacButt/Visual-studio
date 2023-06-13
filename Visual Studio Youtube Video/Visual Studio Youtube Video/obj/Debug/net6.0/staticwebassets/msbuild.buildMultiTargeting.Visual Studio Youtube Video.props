@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Visual Studio Youtube Video.props" />
+</Project>
