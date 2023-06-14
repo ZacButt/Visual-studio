@@ -1,8 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
 <html>
 <head>
     <title>My Favorite Song</title>
-    <h1>Welcome to My Favorite Song!</h1>
 </head>
 <body>
     <!--This is my Css styling below-->
@@ -32,13 +36,15 @@
     border-radius: 4px;
     }
     </style>
-    <!-- This is my Javascript code below -->
-    <script> function animateText() {
-    var heading = document.querySelector('h1');
-    heading.style.animation = 'colorAnimation 2s infinite alternate';
-    }
-    </script>
     <!-- This is my embedded Youtube link-->
+    <h1>Welcome to My Favorite Song!</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/arVVzuU8XIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- This is my Javascript code below -->
+    <script>
+        function animateText() {
+            var heading = document.querySelector('h1');
+            heading.style.animation = 'colorAnimation 2s infinite alternate';
+        }
+</script>
 </body>
 </html>
